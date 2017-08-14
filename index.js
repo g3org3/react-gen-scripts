@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-const _gen = require('@g3org3/generator')
+const _gen = require('@g3org3/generator')(__dirname)
 
 // My Custom Generator
 const context = {
