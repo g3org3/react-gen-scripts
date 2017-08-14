@@ -4,10 +4,7 @@ const _gen = require('yagg')(__dirname)
 
 // My Custom Generator
 const context = {
-  image: {
-    ask: true,
-    required: true
-  },
+  image: 'registry.jorgeadolfo.com/',
   port: 8081
 }
 
