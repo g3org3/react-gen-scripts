@@ -1,0 +1,6 @@
+version: '2'
+services:
+  app:
+    image: #{image}
+    ports:
+      - #{port}:80

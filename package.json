@@ -1,0 +1,24 @@
+{
+  "name": "react-gen-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "g3-gen-react": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g3org3/react-gen-scripts.git"
+  },
+  "author": "George <7jagjag@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g3org3/react-gen-scripts/issues"
+  },
+  "homepage": "https://github.com/g3org3/react-gen-scripts#readme"
+}

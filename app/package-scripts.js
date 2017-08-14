@@ -1,6 +1,9 @@
-const name = require('./package.json').name
-const version = require('./package.json').version
+const pkg = require('./package.json');
 const registry = 'registry.jorgeadolfo.com'
+
+const name = pkg.name
+const version = pkg.version
+const port = pkg.port
 const image = `${registry}/${name}`
 
 module.exports = {

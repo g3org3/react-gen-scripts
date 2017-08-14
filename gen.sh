@@ -155,12 +155,12 @@ _create_deploy_file() {
 
 _init_server() {
   if [[ -n "$NAME" ]]; then
-    echo "> found app name: $NAME"
     echo "ssh -> to server"
     ssh jorgeadolfo.com "mkdir /opt/g3org3/$NAME"
     echo "[ssh] -> created directory"
     scp docker/docker-compose.yml jorgeadolfo.com:/opt/g3org3/$NAME/
     echo "[scp] -> copy compose"
+    _create_deploy_file $NAME
   else
     echo "please provide a project name, did not found package.json on root"
   fi

@@ -7,7 +7,7 @@ import './index.css';
 // Main Component
 import Router from './Router';
 import { Provider } from 'react-redux';
-import store from './store/';
+import store from './store';
 import theme from './config/theme';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 

@@ -5,7 +5,7 @@ import freeze from 'redux-freeze'
 // import thunk from 'redux-thunk'
 // import promise from 'redux-promise-middleware'
 
-import reducer from '../ducks'
+import reducer from './ducks'
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const middleware = composeEnhancers(applyMiddleware(
