@@ -1,12 +1,13 @@
-#! /usr/bin/env node
-
-const _gen = require('yagg')(__dirname)
-
-// My Custom Generator
-const context = {
-  image: 'registry.jorgeadolfo.com/',
-  port: 8081
+module.exports = {
+  __dirname,
+  questions: {
+    dockerRegistry: {
+      message: 'Whats the docker registry',
+      default: 'registry.jorgeadolfo.com'
+    },
+    port: {
+      message: 'What port will you use',
+      default: 8080
+    }
+  }
 }
-
-// clone app
-_gen.cloneTemplateStructure(context)

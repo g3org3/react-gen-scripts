@@ -1,6 +1,6 @@
 {
-  "name": "yagg-g3org3-react",
-  "version": "0.0.1",
+  "name": "yagg-react",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,7 @@
   },
   "author": "",
   "license": "",
-  "bin": {
-    "yagg-g3org3-react": "index.js"
-  },
   "dependencies": {
-    "yagg": "^0.5.0"
+    "yagg": "^1.0.0"
   }
 }

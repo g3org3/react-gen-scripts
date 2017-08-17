@@ -1,6 +1,6 @@
 version: '2'
 services:
   app:
-    image: #{image}
+    image: #{dockerRegistry}/#{projectName}
     ports:
       - #{port}:80
